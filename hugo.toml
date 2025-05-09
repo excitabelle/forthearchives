@@ -1,0 +1,4 @@
+baseURL = 'https://forthearchives.co.uk'
+languageCode = 'en-us'
+title = 'For The Archives'
+theme = 'bridget'
