@@ -1,0 +1,19 @@
+{{- $page_title := .Title -}}
+{{- if not $page_title -}}
+  {{- $page_title = site.Title -}}
+{{- end -}}
+
+<title>{{ $page_title }}</title>
+
+<meta name="Description" content="{{ site.Params.description }}" />
+<meta name="application-name" content="{{ $page_title }}" />
+<meta name="apple-mobile-web-app-title" content="{{ $page_title }}" />
+
+<meta property="og:title" content="{{ $page_title }}" />
+<meta name="twitter:title" content="{{ $page_title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:description" content="{{ site.Params.description }}" />
+<meta name="twitter:description" content="{{ site.Params.description }}" />
+
+{{ hugo.Generator }}

@@ -1,20 +1,20 @@
 {
 	"version": 3,
 	"file": "critical.css",
-	"sourceRoot": "/Users/belenvargas/desktop/portfolio",
+	"sourceRoot": "/Users/belenvargas/Desktop/forthearchives",
 	"sources": [
 		"themes/bridget/assets/scss/critical.scss",
-		"../../desktop/portfolio/themes/bridget/assets/scss/_core/_reset.scss",
-		"../../desktop/portfolio/themes/bridget/assets/scss/_core/_font.scss",
-		"../../desktop/portfolio/themes/bridget/assets/scss/_core/_typography.scss",
-		"../../desktop/portfolio/themes/bridget/assets/scss/_core/_mixins.scss",
-		"../../desktop/portfolio/themes/bridget/assets/scss/_core/_mixins.scss",
-		"../../desktop/portfolio/themes/bridget/assets/scss/_variables.scss",
-		"../../desktop/portfolio/themes/bridget/assets/scss/_core/_mixins.scss",
-		"../../desktop/portfolio/themes/bridget/assets/scss/_core/_base.scss",
-		"../../desktop/portfolio/themes/bridget/assets/scss/_partial/_nav.scss",
-		"../../desktop/portfolio/themes/bridget/assets/scss/_partial/_article.scss",
-		"../../desktop/portfolio/themes/bridget/assets/scss/_partial/_container.scss"
+		"themes/bridget/assets/scss/_core/_reset.scss",
+		"themes/bridget/assets/scss/_core/_font.scss",
+		"themes/bridget/assets/scss/_core/_typography.scss",
+		"themes/bridget/assets/scss/_core/_mixins.scss",
+		"themes/bridget/assets/scss/_core/_mixins.scss",
+		"themes/bridget/assets/scss/_variables.scss",
+		"themes/bridget/assets/scss/_core/_mixins.scss",
+		"themes/bridget/assets/scss/_core/_base.scss",
+		"themes/bridget/assets/scss/_partial/_nav.scss",
+		"themes/bridget/assets/scss/_partial/_article.scss",
+		"themes/bridget/assets/scss/_partial/_container.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\n\n@import '_core/reset';\n@import '_core/font';\n@import '_core/typography';\n@import '_core/mixins';\n@import '_variables';\n@import '_core/base';\n\n@import '_partial/nav';\n@import '_partial/article';\n@import '_partial/container';\n",
